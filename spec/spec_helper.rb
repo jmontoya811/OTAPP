@@ -38,7 +38,7 @@ RSpec.configure do |config|
   end
 
   config.before(:each) do
-    stub_const("SmsTool", FakeSMS)
+    stub_const("SmsTool", FakeSms)
   end 
   
 
