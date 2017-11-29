@@ -1,8 +1,12 @@
+<% if admin_types.include?(current_user.try(:type)) %>
+	<%= render 'admin' %>
+<% else %>
+	<%= render 'employee' %>
+	<% end %>
+
 <h1>Timetrack</h1>
 <div class="jumbotron">
-				<h2>
-					Hello, employees!
-				</h2>
+			
 				<p>
                     This is how to keep track of your hours on a weekly basis. You can request Overtime to be approved by a selected admin.
 				</p>
