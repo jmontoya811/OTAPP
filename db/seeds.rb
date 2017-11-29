@@ -21,7 +21,7 @@ puts "AdminTest Created"
 
 
 100.times do |post|
-  Post.create!(date: Date.today, rationale: "#{post} rationale content", user_id: @user.id, overtime_request: 2.5)
+  Post.create!(date: Date.today, rationale: "#{post} rationale content I want to see how it looks with other content, so I'm going to add some more data to our seeds.rb file for the post creation process. I'm making the rationale really long to see how the truncate method is behaving.", user_id: @user.id, overtime_request: 2.5)
 end
 
 puts "100 Posts have been created"
