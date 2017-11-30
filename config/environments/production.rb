@@ -89,5 +89,5 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
   config.serve_static_assets = true
-  config.action_mailer.default_url_options = { :host => 'wlp-overtime.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'wlp-overtime-ap.herokuapp.com' }
 end
